@@ -25,7 +25,7 @@ namespace Sirjo66_ReadFormAnswer
 
             // Upload the image
             var fileInput = await page.WaitForSelectorAsync("#VerificaImmagineIcao_upload");
-            await fileInput.UploadFileAsync("C:\\Users\\marek\\Documents\\ProgrammingData\\sirjo66\\foto.jpg");
+            await fileInput.UploadFileAsync("path_to_your_photo\\foto.jpg");
 
             // this will clicks for you, it pretends to be a human
             await page.ClickAsync("#VerificaImmagineIcao_button_value_verificaImmagine");
